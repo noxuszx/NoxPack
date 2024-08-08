@@ -24,7 +24,7 @@
     {
       "effect" : "minecraft:speed",
       "level" : 2,
-      "minDifficulty" : 50,
+      "minDifficulty" : 30,
       "durationInMinutes" : 10.0
     },
     {
