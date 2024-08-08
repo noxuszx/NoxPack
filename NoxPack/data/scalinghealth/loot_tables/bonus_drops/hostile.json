@@ -146,7 +146,7 @@
           "entity": "this",
           "is_blight": false,
           "difficulty": {
-            "min": 70.0,
+            "min": 20.0,
             "max": 2.14748365E9
           }
         },

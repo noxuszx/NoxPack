@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:squid",
     "minecraft:bat",
     "minecraft:bee",
     "minecraft:cat",
