@@ -6,5 +6,5 @@
   "heartCrystalLevelCost": 3,
   "heartCrystalHealthIncrease": 1,
   "powerCrystalLevelCost": 3,
-  "powerCrystalDamageIncrease": 0.5
+  "powerCrystalDamageIncrease": 1
 }

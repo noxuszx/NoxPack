@@ -3,12 +3,11 @@
   "group": "scalinghealth",
   "ingredients": [
     {
-      "item": "scalinghealth:heart_crystal",
-      "item": "scalinghealth:heart_dust"
+      "item": "scalinghealth:heart_crystal_shard"
     }
   ],
   "result": {
     "item": "scalinghealth:heart_dust",
-    "count": 24
+    "count": 9
   }
 }
