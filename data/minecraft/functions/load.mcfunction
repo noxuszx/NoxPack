@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"NoxPack","color":"red"},{"text":" has loaded.","color":"yellow"}]

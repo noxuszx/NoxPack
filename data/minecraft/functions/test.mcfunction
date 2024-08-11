@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Function has been tested.","color":"green"},{"text":" (10/10)","color":"yellow"}]
