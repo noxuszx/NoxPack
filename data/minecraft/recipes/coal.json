@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    [
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "tag": "minecraft:logs_that_burn"
+      }
+    ],
+    [
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "tag": "minecraft:logs_that_burn"
+      }
+    ],
+    [
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "tag": "minecraft:logs_that_burn"
+      }
+    ]
+  ],
+  "result": {
+    "item": "minecraft:charcoal",
+    "count": 3
+  }
+}
