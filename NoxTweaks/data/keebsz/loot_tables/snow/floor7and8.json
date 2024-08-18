@@ -774,85 +774,91 @@
       },
       {
         "rolls": 1,
+        "bonus_rolls": 0,
         "entries": [
           {
-            "type": "minecraft:item",
+            "type": "item",
+            "name": "spartanweaponry:iron_glaive"
+            
+          },
+          {
+            "type": "item",
             "name": "spartanweaponry:iron_heavy_crossbow"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_battleaxe"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_flanged_mace"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_boomerang"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_quarterstaff"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_scythe"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:wooden_club"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:cestus"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:studded_cestus"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_glaive"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_longbow"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_halberd"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_spear"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_warhammer"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_battle_hammer"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_rapier"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_longsword"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_parrying_dagger"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "spartanweaponry:iron_dagger"
           },
           {
-            "type": "minecraft:item",
+            "type": "item",
             "name": "minecraft:iron_sword"
           }
         ],
@@ -871,94 +877,6 @@
           {
             "condition": "minecraft:random_chance",
             "chance": 1
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:book",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:book",
-            "functions": [
-              {
-                "function": "minecraft:enchant_randomly",
-                "conditions": [
-                  {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.4
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "scalinghealth:power_crystal_shard",
-            "weight": 20
-          },
-          {
-            "type": "minecraft:item",
-            "name": "scalingheart:power_crystal",
-            "weight": 5
-          },
-          {
-            "type": "minecraft:item",
-            "name": "scalinghealth:heart_crystal",
-            "weight": 5
-          },
-          {
-            "type": "minecraft:item",
-            "name": "scalinghealth:heart_crystal_shard",
-            "weight": 32,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 4
-                }
-              }
-            ]
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:random_chance",
-            "chance": 0.5
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "scalinghealth:heart_crystal_shard",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 1
-              }
-            ]
           }
         ]
       }
