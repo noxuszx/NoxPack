@@ -1,0 +1,90 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:lead_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:platinum_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:aluminum_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:manasteel_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:terrasteel_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:elementium_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:refined_obsidian_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:signalum_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:lumium_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:enderium_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:enderium_tower_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:steel_basic_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:steel_tower_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:lead_tower_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:platinum_tower_shield"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanshields:aluminum_tower_shield"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:enchant_randomly",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

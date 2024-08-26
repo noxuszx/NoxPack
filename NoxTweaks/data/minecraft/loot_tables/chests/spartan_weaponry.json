@@ -1,0 +1,106 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_heavy_crossbow"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_battleaxe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_flanged_mace"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_boomerang"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_quarterstaff"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_scythe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:wooden_club"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:cestus"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:studded_cestus"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_glaive"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_longbow"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_halberd"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_spear"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_warhammer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_battle_hammer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_rapier"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_longsword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_parrying_dagger"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spartanweaponry:iron_dagger"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:enchant_randomly",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.8
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 1
+                }
+            ]
+        }
+    ]
+}

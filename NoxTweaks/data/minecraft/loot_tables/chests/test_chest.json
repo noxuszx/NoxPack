@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:chests/spartan_weaponry"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:chests/spartan_shieds"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:chests/artifacts"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:chests/random_items"
+                }
+            ]
+        }
+    ]
+}

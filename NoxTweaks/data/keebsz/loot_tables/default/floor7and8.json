@@ -16,7 +16,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -31,7 +31,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -46,7 +46,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -54,7 +54,18 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow"
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -65,7 +76,37 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
                 }
               ]
             }
@@ -87,17 +128,21 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 0,
-                "max": 4
+                "max": 1
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air"
         }
       ]
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 3
+        "min": 0,
+        "max": 4
       },
       "entries": [
         {
@@ -109,7 +154,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -124,9 +169,13 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
             }
           ]
         },
@@ -139,7 +188,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -154,7 +203,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -176,13 +225,26 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     },
     {
       "rolls": {
         "min": 1,
-        "max": 2
+        "max": 4
       },
       "entries": [
         {
@@ -193,35 +255,35 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 6
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:apple",
+          "name": "minecraft:golden_apple",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 8
+                "min": 0,
+                "max": 2
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_mutton"
+          "name": "minecraft:cooked_beef"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_count",
           "count": {
-            "min": 1,
-            "max": 6
+            "min": 0,
+            "max": 4
           }
         }
       ]
@@ -241,18 +303,48 @@
         {
           "function": "minecraft:set_count",
           "count": {
-            "min": 1,
-            "max": 4
+            "min": 0,
+            "max": 2
           }
         }
       ]
     },
     {
       "rolls": {
-        "min": 0,
-        "max": 2
+        "min": 1,
+        "max": 3
       },
       "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 16
+              }
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
@@ -269,62 +361,69 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 3
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:healing"
-            }
-          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:swiftness"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
-      "entries": [
+          "name": "minecraft:compass"
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:arrow",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 16
+                "min": 0,
+                "max": 2
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle"
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/spartan_weaponry"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/spartan_shields"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/artifacts"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/random_items"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1
         }
       ]
     }
   ]
 }
-
