@@ -10,6 +10,12 @@
     "totw_additions:chests/end_tower/end_tower_chest": 3,
     "dungeoncrawl:chests/treasure": 3,
     "dungeoncrawl:chests/stage_5": 3,
-    "awesomedungeonend:chests/awesome_dungeon": 3
+    "awesomedungeonend:chests/awesome_dungeon": 3,
+    "keebsz:chests/desert/floor9and10": 3,
+    "keebsz:chests/bamboo/floor9and10": 3,
+    "keebsz:chests/badlands/floor9and10": 3,
+    "keebsz:chests/snow/floor9and10": 3,
+    "keebsz:chests/swamp/floor9and10": 3,
+    "keebsz:chests/default/floor9and10": 3
   }
 }

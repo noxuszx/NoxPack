@@ -39,6 +39,12 @@
     "philipsruins:chests/level_three_ruins_loot": 4,
     "philipsruins:chests/ruin_loot_value": 6,
     "philipsruins:chests/sculk_dungeon_loot": 4,
-    "unstructured:chests/treasure_dungeon": 4
+    "unstructured:chests/treasure_dungeon": 4,
+    "keebsz:chests/desert/floor7and8": 3,
+    "keebsz:chests/bamboo/floor7and8": 3,
+    "keebsz:chests/badlands/floor7and8": 3,
+    "keebsz:chests/snow/floor7and8": 3,
+    "keebsz:chests/swamp/floor7and8": 3,
+    "keebsz:chests/default/floor7and8": 3
   }
 }

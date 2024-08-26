@@ -133,6 +133,13 @@
     "wythers:chests/village/forest_ruins_temple": 1,
     "wythers:chests/village/forest_ruins_toolsmith": 1,
     "wythers:chests/village/forest_ruins_weaponsmith": 1,
-    "wythers:chests/village/forest_ruins_library": 1
+    "wythers:chests/village/forest_ruins_library": 1,
+    "minecraft:chests/test_chest":100,
+    "keebsz:chests/desert/floor5and6": 3,
+    "keebsz:chests/bamboo/floor5and6": 3,
+    "keebsz:chests/badlands/floor5and6": 3,
+    "keebsz:chests/snow/floor5and6": 3,
+    "keebsz:chests/swamp/floor5and6": 3,
+    "keebsz:chests/default/floor5and6": 3
   }
 }

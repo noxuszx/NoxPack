@@ -9,7 +9,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "minecraft:chests/spartan_shieds"
+                    "name": "minecraft:chests/spartan_shields"
                 },
                 {
                     "type": "minecraft:loot_table",
